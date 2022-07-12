@@ -1,0 +1,117 @@
+<!doctype html><html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Jarditou - Formulaire</title>
+  </head>
+    <body>
+      <div class = "container-fluid">
+        <div class = "row">
+          <div class = "col-2"><img src = "src/img/jarditou_logo.jpg" class="img-fluid" alt="jarditoulogo" title="jarditoulogo">
+        </div>
+          <div class= "col-7">
+        </div>
+          <div class = "h1 col-sm fs-1 mt-4" ><p>Formulaire</p>
+        </div>
+
+        <!--Début de la navbar (haut de page)-->
+
+            <nav class="navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Jarditou.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="tableaux.html">Tableau</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+                     <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Votre promotion" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                     </form>
+                    </div>
+                  </div>
+                </nav>
+
+            <!--Fin de la navbar (haut de page)-->
+
+                    <img src="src/img/promotion.jpg" class="img-fluid" alt="promotion">
+
+            <!--Début du formulaire-->
+
+                <form>
+                    <div class = "h6 mt-4 " ><small>*Ces zones sont obligatoires</small>
+                  </div>
+                    <p class="h2 mt-2">Vos Coordonnées</p>
+                  <div class="mb-3"><label for="exampleFormControlInput1" class="form-label">Nom*</label><input type="nom" class="form-control" id="nom" placeholder="Veuillez saisir votre nom">
+                </div>
+                  <div class="mb-3"><label for="exampleFormControlInput1" class="form-label">Prénom*</label><input type="prenom" class="form-control" id="prenom" placeholder="Veuillez saisir votre prénom">
+                </div>
+                <div class=""><label for="exampleFormControlInput1" class="form-label">Sexe*</label>
+                  <br>
+                <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="masculin" id="masculin" value="option1"><label class="form-check-label" for="inlineRadio1">Masculin</label></div> 
+                <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="feminin" id="feminin" value="option2"><label class="form-check-label" for="inlineRadio2">Féminin</label></div>
+                  <br><br>
+                <div class="mb-3"><label for="exampleFormControlInput1" class="form-label">Date de naissance*</label><input type="naissance" class="form-control" id="naissance" placeholder="jj/mm/aaaa">
+                </div>
+                <div class="mb-3"><label for="exampleFormControlInput1" class="form-label">Code postal*</label><input type="codepostal" class="form-control" id="codepostal">
+                <div class="mb-3 mt-3"><label for="exampleFormControlInput1" class="form-label">Adresse</label><input type="adresse" class="form-control" id="adresse">
+                <div class="mb-3 mt-3"><label for="exampleFormControlInput1" class="form-label">Ville</label><input type="ville" class="form-control" id="ville">
+                <div class="mb-3 mt-3"><label for="exampleFormControlInput1" class="form-label">Email*</label><input type="email" class="form-control" id="email" placeholder="dave.loper@afpa.fr">
+                </div>
+                <p class="h2 mt-2">Votre demande</p>
+                <div class="mb-3"><label for="exampleFormControlInput1" class="form-label">Sujet</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Veuillez sélectionner un sujet</option>
+                <option value="1">Mes commandes</option>  
+                <option value="2">Question sur un produit</option>
+                <option value="3">Réclamation</option>
+                <option value="4">Autres</option>
+              </select>
+                <div class="form-label mt-3">Votre question*:</label><textarea class="form-control" id="question" rows="2"></textarea></div>
+                  <div class="form-check">  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">  <label class="form-check-label" for="flexCheckDefault">  J'accepte le traitement informatique de ce formulaire.  </label> </div>
+                    <button  class="btn btn-dark mt-2" type="button">Envoyer</button>
+                    <button  class="btn btn-dark mt-2" type="button">Annuler</button>
+                    <nav class="mt-2 navbar navbar-expand-lg bg-dark rounded">
+                      <div class="container-fluid">  
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+
+            <!--Fin du formulaire-->
+
+            <!--Début de la navbar (bas de page)-->
+
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active text-secondary" aria-current="page" href="#">mentions légales</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active text-secondary" aria-current="page" href="#">horaires</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active text-secondary" aria-current="page" href="#">plan du site</a>
+                            </li>
+                            </ul>
+                            </div>
+                        </div>
+                      </nav>
+
+            <!--Fin de la navbar (bas de page)-->
+
+                  </form>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      </body>
+</html>
